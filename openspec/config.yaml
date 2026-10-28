@@ -1,0 +1,33 @@
+schema: spec-driven
+
+context: |
+  Language: zh-CN
+  All artifacts must be written in zh-CN.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  项目：Toonflow（开源 AI 短剧/漫剧/视频创作平台，Bun + Electron）。
+  上游：HBAI-Ltd/Toonflow-app；许可 MIT。
+  本工作区关系：独立项目，不在 muyaya 相册系统运行链路内，无部署关系。
+  文档：上游 README/AGENTS.md/CONTRIBUTING/docs 为实现权威。
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
